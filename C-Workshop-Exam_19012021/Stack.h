@@ -23,7 +23,8 @@ typedef struct Stack_t
 } Stack;
 
 /**
- * @brief a function that creates a new stack
+ * @brief a function that creates a new stack,
+ * note: using allocation
  * @return the instance
 */
 Stack *CreateStack();
@@ -63,6 +64,7 @@ unsigned StackSize(Stack *stack);
 
 /**
  * @brief a function that prints the number of nodes in the stack
+ * note: using print
  * @param stack the stack
 */
 void StackPrint(Stack *stack);
