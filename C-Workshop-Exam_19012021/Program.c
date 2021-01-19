@@ -1,47 +1,25 @@
-/* Program.c : This file contains the 'main' function. Program execution begins and ends there. */
-#include <limits.h>
+// C_exam_1.c : This file contains the 'main' function. Program execution begins and ends there.
+// 206295305 naor bar kochva
 #include <stdio.h>
+#include "Stack.h"
+
 
 /**
- * @brief the main function
- * @return integer if ends with success.
+* @file Main.c
+* running all functions from Fibonacci.h
 */
 int main()
 {
     printf("Hello World!\n");
+    Stack *stack11 = CreateStack();
+    Node a, b, c, d;
+    a.value = 1;
+    b.value = 2;
+    c.value = 3;
+    d.value = 4;
+    StackPush(&stack11, &a);
+    StackPush(&stack11, &b);
+    StackPush(&stack11, &c);
+    StackPush(&stack11, &d);
+    DeleteStack(&stack11);
 }
-
-
-/**
-* @file fileheader.h
-* contains all fuctions for .....
-*/
-
-/*
-* 
-    void Function(void)
-    {
-
-    }
-
-*/
-
-/**
-* @brief: function that does....
-    note: it uses dynamic allocation
-          it uses print to screen
-*/
-//void Function(void);
-
-
-/*
-unsigned choice = 1;
-switch (choice)
-{
-case 1:
-
-case 2:
-
-
-}
-*/
