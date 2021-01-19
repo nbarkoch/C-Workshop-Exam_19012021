@@ -33,6 +33,7 @@ void DeleteStack(Stack *stack);
 
 /**
  * @brief a function that gets a stack and a new node and push it to the root
+ * note: using allocation
  * @param stack
 */
 void StackPush(Stack *stack, Node *item);
