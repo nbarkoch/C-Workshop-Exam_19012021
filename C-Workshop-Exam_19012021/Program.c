@@ -6,7 +6,7 @@
 
 /**
 * @file Main.c
-* running all functions from Fibonacci.h
+* running all functions 
 */
 int main()
 {
